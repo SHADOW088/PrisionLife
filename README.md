@@ -128,3 +128,8 @@ e:Button("DestroyPrisionHalls", function()
     game:GetService("Workspace")["Prison_Halls"]:Destroy()
 end)
 
+r:Button("Infinite Yield", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")()
+end)
+
+
